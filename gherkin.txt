@@ -1,0 +1,11 @@
+Given A user is on the login page
+When the user types in the correct login credentials
+Then They should be taken to the account profile screen
+
+Given A user is on the login page
+When the user types in the incorrect login credentials
+Then They should be taken to the invalid credetials supplied screen
+
+Given A user is on the login page
+When the user submit in the empty login credentials
+Then They should be shouwn message that credentials are mandatory
